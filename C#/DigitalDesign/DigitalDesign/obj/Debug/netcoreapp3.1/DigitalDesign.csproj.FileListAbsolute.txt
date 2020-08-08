@@ -14,5 +14,5 @@ E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C
 E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C#\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C#\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C#\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C#\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.csproj.CoreCompileInputs.cache
 E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C#\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.csproj.CopyComplete
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\C#\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.csproj.CoreCompileInputs.cache
