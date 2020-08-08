@@ -3,25 +3,26 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Web.Http;
+using Newtonsoft.Json;
 
 namespace DigitalDesign
 {
     class Program
     {
         public static HttpClient https = new HttpClient();
-        public static List<string> list = new List<string>();
+        public static string responseBody;
         [HttpGet]
         public static async void Get() 
         {
-            https.BaseAddress = new Uri("https://fish-text.ru/get");
-            var response = await https.GetAsync(https.BaseAddress);
-            if (response.IsSuccessStatusCode)
-            {
-                //    list = await response.Content.ReadAsAsync<string>();//
-            }
 
-            list.Add(response.ToString());
+            HttpResponseMessage response = await https.GetAsync("https://fish-text.ru/get");
+            response.EnsureSuccessStatusCode();
+            responseBody = await response.Content.ReadAsStringAsync();
+
+            Console.WriteLine(responseBody);
         }
 
 
@@ -38,13 +39,15 @@ namespace DigitalDesign
             //List<string> text = new List<string>() { "Hello world!", "How are you?" };
 
             Get();
+            List<string> result = responseBody.Split('\t').ToList();
             try
             {
                 for (int i = 1; i <= quantity; i++)
                 {
                     int x = rand.Next(-10, 200);
                     var filePath = $"{path}\\LightTextFile{x}.txt";
-                    File.WriteAllLines(filePath, list);
+                    
+                    File.WriteAllLines(filePath, result);
                 }                
             }
             catch (Exception e)
