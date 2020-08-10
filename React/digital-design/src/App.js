@@ -2,11 +2,10 @@ import React from 'react';
 
 import './App.css';
 
-
-import Test from './test';
 import Navigation from './navigation/navigation';
-import LeftCard from './left/left';
+import LeftCardImg from './leftCardImage/leftCardImage';
 import Rightimgwithtext from './rightimgwithtext/rightimgwithtext';
+import AuthorAndComments from './authorAndComments/authorAndComments';
 
 
 function App() {
@@ -24,10 +23,10 @@ function App() {
         </div>
         <br></br>
         <div className="row">
-          <div className="col">
-            <LeftCard></LeftCard>
+          <div className="col-lg-4 col-md-6 col-sm-11">
+            <LeftCardImg></LeftCardImg>
           </div>
-          <div className="col">
+          <div className="col-lg-8 col-md-6 col-sm-10">
               <Rightimgwithtext></Rightimgwithtext>
           </div>
         </div>
@@ -42,7 +41,6 @@ function App() {
             <p>Test 1</p>
             <p>Test 2</p>
             <p>Test 3</p>
-            <Test></Test>
           </div>
       </div>
     </div>
