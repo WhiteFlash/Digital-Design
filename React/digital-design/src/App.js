@@ -5,8 +5,8 @@ import './App.css';
 import Navigation from './navigation/navigation';
 import LeftCardImg from './leftCardImage/leftCardImage';
 import Rightimgwithtext from './rightimgwithtext/rightimgwithtext';
-import AuthorAndComments from './authorAndComments/authorAndComments';
-
+import Card from './card/card';
+import Cardcenter from './cardCenter/cardCenter';
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
         <h2 id="webpagetitle" className="col"> Flexbox Layout </h2>
       </div>
       <br></br>
-      <div className="container">
+      <div className="container" id="navigation">
         <div className="row">
-          <div className="col">
+          <div className="col-lg-12 col-md-12 col-sm-12" >
             <Navigation></Navigation>
           </div>          
         </div>
@@ -27,21 +27,24 @@ function App() {
             <LeftCardImg></LeftCardImg>
           </div>
           <div className="col-lg-8 col-md-6 col-sm-10">
-              <Rightimgwithtext></Rightimgwithtext>
+            <Rightimgwithtext></Rightimgwithtext>
           </div>
         </div>
-        <div className="row" id="leftdives">
-          <div className="col">            
-              <p>1-st p</p>              
-              <p>2-st p</p>
-              <p>3-st p</p>            
-          </div>          
-        </div>
-        <div className="col">
-            <p>Test 1</p>
-            <p>Test 2</p>
-            <p>Test 3</p>
+        <div className="row" >
+          <div className="col-lg-4 col-md-6 col-sm-10">   
+            <Card></Card>       
+            <Card></Card>  
+            <Card></Card>       
+          </div>  
+          <div className="col-lg-5 col-md-4">
+            <Cardcenter></Cardcenter>
           </div>
+          <div className="col-lg-3 col-md-2">
+            <LeftCardImg></LeftCardImg>                  
+            <Card></Card>  
+            <Card></Card>                 
+          </div>
+        </div>
       </div>
     </div>
   );
