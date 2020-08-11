@@ -1,0 +1,18 @@
+#pictures{
+    width: 100%;
+    height: 100%;
+}
+
+#imgRepeater{
+    width: 100%;
+    height: 100%;
+   
+}
+
+#whiteBackground{
+    background-color: white;   
+}
+
+.moveForSpace{
+    padding: 9px 0px 12px 12px;
+}
