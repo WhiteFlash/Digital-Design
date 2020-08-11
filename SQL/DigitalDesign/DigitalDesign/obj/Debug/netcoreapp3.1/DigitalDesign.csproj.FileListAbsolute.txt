@@ -1,0 +1,13 @@
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\DigitalDesign.exe
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\DigitalDesign.deps.json
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\DigitalDesign.runtimeconfig.json
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\DigitalDesign.runtimeconfig.dev.json
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\DigitalDesign.dll
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\bin\Debug\netcoreapp3.1\DigitalDesign.pdb
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.csprojAssemblyReference.cache
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.AssemblyInfoInputs.cache
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.AssemblyInfo.cs
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.csproj.CoreCompileInputs.cache
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.dll
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.pdb
+E:\All-files\Work\Тестовые задания\Task-Digital-Desigh\Programs\SQL\DigitalDesign\DigitalDesign\obj\Debug\netcoreapp3.1\DigitalDesign.genruntimeconfig.cache
