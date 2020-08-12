@@ -13,6 +13,7 @@ namespace DigitalDesign
         public string Shortname { get; set; }
         public decimal Open { get; set; }
         public decimal Close { get; set; }
+        public decimal Percent { get; set; } = 0M;
 
         public Share() { }
 
