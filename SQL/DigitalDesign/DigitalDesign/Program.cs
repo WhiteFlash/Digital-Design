@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace DigitalDesign
 {
-    class Program
+    public class Program
     {
         /// <summary>
         ///     Function return tuple.
@@ -16,24 +16,26 @@ namespace DigitalDesign
         ///     Persentage shows the difference betwin start of trade and the end.
         ///     Flag shows status. If flag is 1 then share has risen, if -1 then fall, 0 means no changes.
         /// </returns>
-        private static (decimal, sbyte) CalculateShares(decimal open, decimal closed)
+        public static (decimal, sbyte) CalculateShares(decimal open, decimal closed)
         {
             decimal percent; sbyte flag;
 
             percent = (closed * 100 ) / open;
-            percent = 100 - percent;
-            if(percent < 0)
-            {
-                flag = -1;
-            }
-            else if( percent > 0)
+            if(percent > 100)
             {
                 flag = 1;
+            }
+            else if( percent < 100)
+            {
+                flag = -1;
             }
             else
             {
                 flag = 0;
-            }           
+            }
+            
+            percent = Math.Abs(100 - percent);
+                    
             return (percent, flag);
         }
         
@@ -81,9 +83,9 @@ namespace DigitalDesign
 
                 if (boaredAttribute.Value == "TQBR")
                 {
-                    if(openAttribute.Value != "" || closeAttribute.Value != "")
+                    if (openAttribute.Value != "" || closeAttribute.Value != "")
                     {
-                        var share = new Share(boaredAttribute.Value, secidAttribute.Value, shortnameAttribute.Value, decimal.Parse(openAttribute.Value), decimal.Parse(closeAttribute.Value));
+                        Share share = new Share(boaredAttribute.Value, secidAttribute.Value, shortnameAttribute.Value, decimal.Parse(openAttribute.Value), Convert.ToDecimal(closeAttribute.Value));
                         shares.Add(share);
                         //Console.WriteLine($"Организация: {shortnameAttribute.Value}");
                         //Console.WriteLine($"Тикер: {secidAttribute.Value}");
@@ -96,10 +98,10 @@ namespace DigitalDesign
             var sharesArray = new Share[shares.Count];
             var count = 0;
 
-            foreach(var x in shares)
+            foreach (var x in shares)
             {                
                 var (percent, status) = CalculateShares(x.Open, x.Close);
-                if(status > 0)
+                if (status > 0)
                 {
                     sharesArray[count] = x;
                     sharesArray[count].Percent = percent;
