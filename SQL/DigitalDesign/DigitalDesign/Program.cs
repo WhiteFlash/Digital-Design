@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using System.Globalization;
 
 namespace DigitalDesign
 {
@@ -20,12 +21,12 @@ namespace DigitalDesign
         {
             decimal percent; sbyte flag;
 
-            percent = (closed * 100 ) / open;
-            if(percent > 100)
+            percent = (closed * 100) / open;
+            if (percent > 100)
             {
                 flag = 1;
             }
-            else if( percent < 100)
+            else if (percent < 100)
             {
                 flag = -1;
             }
@@ -33,9 +34,9 @@ namespace DigitalDesign
             {
                 flag = 0;
             }
-            
+
             percent = Math.Abs(100 - percent);
-                    
+
             return (percent, flag);
         }
         
@@ -70,6 +71,8 @@ namespace DigitalDesign
         static void Main(string[] args)
         {
             string path = "..\\..\\..\\биржа.xml";
+            // Experimental path for .exe file.
+            string path1 = "биржа.xml";
             XDocument xDoc = XDocument.Load(path);
             var shares = new List<Share>();
 
@@ -85,7 +88,7 @@ namespace DigitalDesign
                 {
                     if (openAttribute.Value != "" || closeAttribute.Value != "")
                     {
-                        Share share = new Share(boaredAttribute.Value, secidAttribute.Value, shortnameAttribute.Value, decimal.Parse(openAttribute.Value), Convert.ToDecimal(closeAttribute.Value));
+                        Share share = new Share(boaredAttribute.Value, secidAttribute.Value, shortnameAttribute.Value, decimal.Parse(openAttribute.Value, new CultureInfo("en-US")), Convert.ToDecimal(closeAttribute.Value));
                         shares.Add(share);
                         //Console.WriteLine($"Организация: {shortnameAttribute.Value}");
                         //Console.WriteLine($"Тикер: {secidAttribute.Value}");
@@ -145,3 +148,45 @@ namespace DigitalDesign
         }
     }
 }
+
+
+/// Experimental method.
+//public static (decimal, sbyte) CalculateShares(decimal open, decimal closed)
+//{
+//    decimal percent; sbyte flag;
+
+//    if (open == 0)
+//    {
+//        percent = closed * 100;
+//    }
+//    else
+//    {
+//        percent = (closed * 100) / open;
+//    }
+
+//    if (percent > 100)
+//    {
+//        flag = 1;
+//    }
+//    else if (percent < 100)
+//    {
+//        flag = -1;
+//    }
+//    else
+//    {
+//        if ((open - closed) == closed)
+//        {
+//            return (100, 1);
+//        }
+//        else if (closed - open == open)
+//        {
+//            return (100, -1);
+//        }
+//        flag = 0;
+//    }
+
+//    percent = Math.Abs(100 - percent);
+
+//    return (percent, flag);
+//}
+
