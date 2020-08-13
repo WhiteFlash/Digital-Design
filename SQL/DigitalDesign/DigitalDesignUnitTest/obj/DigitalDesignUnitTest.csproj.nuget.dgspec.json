@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesignUnitTest\\DigitalDesignUnitTest.csproj": {}
+  },
+  "projects": {
+    "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesignUnitTest\\DigitalDesignUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesignUnitTest\\DigitalDesignUnitTest.csproj",
+        "projectName": "DigitalDesignUnitTest",
+        "projectPath": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesignUnitTest\\DigitalDesignUnitTest.csproj",
+        "packagesPath": "C:\\Users\\ivank\\.nuget\\packages\\",
+        "outputPath": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesignUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesign\\DigitalDesign.csproj": {
+                "projectPath": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesign\\DigitalDesign.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesign\\DigitalDesign.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesign\\DigitalDesign.csproj",
+        "projectName": "DigitalDesign",
+        "projectPath": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesign\\DigitalDesign.csproj",
+        "packagesPath": "C:\\Users\\ivank\\.nuget\\packages\\",
+        "outputPath": "E:\\All-files\\Work\\Тестовые задания\\Task-Digital-Desigh\\Programs\\SQL\\DigitalDesign\\DigitalDesign\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
