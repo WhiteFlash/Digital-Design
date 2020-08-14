@@ -1,11 +1,12 @@
 import React from 'react';
 
 import './../App';
+import './../CommonAppClasses.css'
 import './navigation.css';
 
 function Navigation() {
     return (     
-      <div className="parent" id="">
+      <div className="parent" id="nav">
         <div className="child">
           <a class="" href="#" >Home</a>
         </div>
@@ -19,7 +20,7 @@ function Navigation() {
           <a class="" href="#" >Partners</a>
         </div>
         <div className="child" id="test">
-          <input type="text" className="child"  />
+          <input type="text" className="child flex-grow-3" id="search" />
         </div>
         <div className="child">
           <a class="" href="#" >Sigtn In</a>

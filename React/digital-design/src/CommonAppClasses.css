@@ -1,0 +1,19 @@
+/*Child components styles*/
+
+/* Growing styles */
+.flex-grow-item-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-item-2 {
+    flex-grow: 2;
+}
+
+.flex-grow-item-3 {
+    flex-grow: 3;
+}
+
+.flex-grow-item-4 {
+    flex-grow: 4;
+}
+

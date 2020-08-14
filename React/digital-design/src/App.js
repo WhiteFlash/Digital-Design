@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './App.css';
+import './CommonAppClasses.css';
 
 import Navigation from './navigation/navigation';
 import LeftCardImg from './leftCardImage/leftCardImage';

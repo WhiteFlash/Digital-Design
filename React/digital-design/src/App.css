@@ -11,9 +11,9 @@ body{
   margin-right: 10%;
 }
 
-.parent{
+/* .parent{
   display: flex; 
-}
+} */
 
 .child{
   margin: auto;
