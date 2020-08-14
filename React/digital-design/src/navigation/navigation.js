@@ -3,26 +3,25 @@ import React from 'react';
 import './../App';
 import './navigation.css';
 
-
 function Navigation() {
     return (     
-      <div className="" id="main">
-        <div className="">
+      <div className="parent" id="">
+        <div className="child">
           <a class="" href="#" >Home</a>
         </div>
-        <div className="">
+        <div className="child">
           <a class="" href="#" >Contacts</a>
         </div>
-        <div className="">
+        <div className="child">
           <a class="" href="#" >About Me</a>
         </div>
-        <div className="">
+        <div className="child">
           <a class="" href="#" >Partners</a>
         </div>
-        <div className="" id="test">
-          <input type="text" className=""  />
+        <div className="child" id="test">
+          <input type="text" className="child"  />
         </div>
-        <div className="">
+        <div className="child">
           <a class="" href="#" >Sigtn In</a>
         </div>
       </div>      

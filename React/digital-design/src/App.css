@@ -1,13 +1,28 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 body{
-  background-color: #248f24;
+  color: white;
+  background-color: #3D2F15;
 }
 
-#webpagetitle{
-  text-align: center;
-  color: white;
+#wrapper {  
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.parent{
+  display: flex; 
+}
+
+.child{
+  margin: auto;
+  padding: 1%;
+}
+
+@media screen and (max-width: 1000px){
+  #wrapper{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }
