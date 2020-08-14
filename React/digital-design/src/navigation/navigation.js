@@ -6,24 +6,24 @@ import './navigation.css';
 
 function Navigation() {
     return (     
-      <div className="row justify-content-center" id="main">
-        <div className="col-lg col-md-2 custom">
-          <a class="nav-link " href="#" >Home</a>
+      <div className="" id="main">
+        <div className="">
+          <a class="" href="#" >Home</a>
         </div>
-        <div className="col col-lg col-md-2 col-sm custom">
-          <a class="nav-link " href="#" >Contacts</a>
+        <div className="">
+          <a class="" href="#" >Contacts</a>
         </div>
-        <div className="col col-lg col-md-2 col-sm custom">
-          <a class="nav-link " href="#" >About Me</a>
+        <div className="">
+          <a class="" href="#" >About Me</a>
         </div>
-        <div className="col col-lg col-md-2 col-sm custom">
-          <a class="nav-link " href="#" >Partners</a>
+        <div className="">
+          <a class="" href="#" >Partners</a>
         </div>
-        <div className="col col-lg-3 col-md-3 col-sm-12" id="test">
+        <div className="" id="test">
           <input type="text" className=""  />
         </div>
-        <div className="col col-lg col-md-2 col-sm custom">
-          <a class="nav-link " href="#" >Sigtn In</a>
+        <div className="">
+          <a class="" href="#" >Sigtn In</a>
         </div>
       </div>      
     );

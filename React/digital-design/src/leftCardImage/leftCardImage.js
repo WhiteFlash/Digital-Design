@@ -8,11 +8,11 @@ import customImage from '../img/one.jpg'
 
 function LeftCardImg() {
     return (          
-    <div className="card" id="total">
-        <img className="card-img-top" src={customImage} alt="Card image" id="pictures"/>
-        <div className="card-body">
-          <h4 className="card-title">Hello world</h4>
-          <p className="card-text">
+    <div className="" id="total">
+        <img className="" src={customImage} alt="Card image" id="pictures"/>
+        <div className="">
+          <h4 className="">Hello world</h4>
+          <p className="">
             Some example text some example text. John Doe is an architect and engineer
             Some example text some example text. John Doe is an architect and engineer
             Some example text some example text. John Doe is an architect and engineer

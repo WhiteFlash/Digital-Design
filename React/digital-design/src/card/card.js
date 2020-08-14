@@ -8,10 +8,10 @@ import customImage from '../img/one.jpg'
 
 function Card() {
     return (          
-    <div className="card ">
-        <div className="card-body">
-            <h3 className="card-title">Hello world</h3>
-            <p className="card-text">Testlndsflnslkdfnk dsflbsjkfdb</p>
+    <div className=" ">
+        <div className="">
+            <h3 className="">Hello world</h3>
+            <p className="">Testlndsflnslkdfnk dsflbsjkfdb</p>
             <AuthorAndComments></AuthorAndComments>
         </div>
     </div>

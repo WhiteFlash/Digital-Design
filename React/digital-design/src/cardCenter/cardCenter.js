@@ -7,10 +7,10 @@ import './cardCenter.css';
 
 function CardCenter() {
     return (     
-        <div className="card">
-            <img className="card-img-top" src={CardImage} alt="Card image"/>
-            <div className="card-body">
-                <p className="card-text">ome quick example text to build on the card title and make up the bulk of the card's content.</p>       
+        <div className="">
+            <img className="" src={CardImage} alt=""/>
+            <div className="">
+                <p className="">ome quick example text to build on the card title and make up the bulk of the card's content.</p>       
             </div>
         </div>      
     );
