@@ -15,7 +15,7 @@ function App() {
         <div className="d-flex">
           <h2 className="child">Flexbox Layout </h2>
         </div>
-        <br></br>      
+        <br></br>    
         <Navigation></Navigation>    
       </div>
         // {/* <br></br>
