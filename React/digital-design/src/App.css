@@ -6,7 +6,6 @@ body{
 #wrapper {  
   display: flex;
   flex-direction: column;
-  align-content: space-around;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -19,6 +18,7 @@ body{
   margin: auto;
   padding: 1%;
   padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 @media screen and (max-width: 1000px){
@@ -27,3 +27,16 @@ body{
     margin-right: 1%;
   }
 }
+
+@media screen and (max-width: 800px){ 
+  .d-flex{
+    flex-flow: column wrap;
+  }
+
+  .d-flex .item-nav{
+    margin-left: 0em;
+  }
+}
+
+
+
