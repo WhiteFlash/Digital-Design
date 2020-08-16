@@ -12,7 +12,7 @@ import Cardcenter from './cardCenter/cardCenter';
 function App() {
   return (
       <div id="wrapper">
-        <div className="parent">
+        <div className="d-flex">
           <h2 className="child">Flexbox Layout </h2>
         </div>
         <br></br>      
