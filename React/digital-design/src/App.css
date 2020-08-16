@@ -11,13 +11,14 @@ body{
   margin-right: 10%;
 }
 
-/* .parent{
+.d-flex{
   display: flex; 
-} */
+}
 
 .child{
   margin: auto;
   padding: 1%;
+  padding-top: 3%;
 }
 
 @media screen and (max-width: 1000px){
