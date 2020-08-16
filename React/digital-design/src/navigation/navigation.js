@@ -19,10 +19,10 @@ function Navigation() {
         <div className="item-nav">
           <a class="" href="#" >Partners</a>
         </div>
-        <div className="flex-grow-3 item-nav" id="test">
+        <div className="flex-grow-3 item-nav" id="searchdiv">
           <input type="text" className="item-nav flex-grow-3" id="search" />
         </div>
-        <div className="item-nav">
+        <div className="item-nav" id="signin">
           <a class="" href="#" >Sigtn In</a>
         </div>
       </div>      

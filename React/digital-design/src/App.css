@@ -36,6 +36,15 @@ body{
   .d-flex .item-nav{
     margin-left: 0em;
   }
+
+  #signin{
+    order: -1;
+    margin-bottom: 1%;
+  }
+
+  #searchdiv{
+    visibility: hidden;
+  }
 }
 
 
