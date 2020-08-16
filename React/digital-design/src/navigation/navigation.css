@@ -1,3 +1,5 @@
+
+
 a {
     color: black;
     text-decoration: none;
@@ -36,4 +38,11 @@ a {
 
 #nav div:nth-child(6){
     margin-right: 0;
+}
+
+@media screen and (max-width: 800){
+    .item-nav {
+        flex-grow: 0em;
+        margin-left: 0em;
+    }
 }
