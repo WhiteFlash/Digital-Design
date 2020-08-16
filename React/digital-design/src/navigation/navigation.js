@@ -6,23 +6,23 @@ import './navigation.css';
 
 function Navigation() {
     return (     
-      <div className="parent" id="nav">
-        <div className="child">
+      <div className="d-flex" id="nav">
+        <div className="item-nav">
           <a class="" href="#" >Home</a>
         </div>
-        <div className="child">
+        <div className="item-nav">
           <a class="" href="#" >Contacts</a>
         </div>
-        <div className="child">
+        <div className="item-nav">
           <a class="" href="#" >About Me</a>
         </div>
-        <div className="child">
+        <div className="item-nav">
           <a class="" href="#" >Partners</a>
         </div>
-        <div className="child" id="test">
-          <input type="text" className="child flex-grow-3" id="search" />
+        <div className="flex-grow-3 item-nav" id="test">
+          <input type="text" className="item-nav flex-grow-3" id="search" />
         </div>
-        <div className="child">
+        <div className="item-nav">
           <a class="" href="#" >Sigtn In</a>
         </div>
       </div>      
