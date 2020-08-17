@@ -16,32 +16,31 @@ function App() {
           <h2 className="child">Flexbox Layout </h2>
         </div>
         <br></br>    
-        <Navigation></Navigation>    
+          <Navigation></Navigation>          
+        <br></br>
+        <div className="">
+          <LeftCardImg></LeftCardImg>
+        </div>
       </div>
-        // {/* <br></br>
-        // <div className="">
-        //   <div className="">
-        //     <LeftCardImg></LeftCardImg>
-        //   </div>
-        //   <div className=" ">
-        //     <Rightimgwithtext></Rightimgwithtext>
-        //   </div>
-        // </div>
-        // <div className="" >
-        //   <div className=" ">   
-        //     <Card></Card>       
-        //     <Card></Card>  
-        //     <Card></Card>       
-        //   </div>  
-        //   <div className="">
-        //     <Cardcenter></Cardcenter>
-        //   </div>
-        //   <div className="">
-        //     <LeftCardImg></LeftCardImg>                  
-        //     <Card></Card>  
-        //     <Card></Card>                 
-        //   </div>
-        // </div> */}
+          /* <div className=" ">
+            <Rightimgwithtext></Rightimgwithtext>
+          </div>
+        </div>
+        <div className="" >
+          <div className=" ">   
+            <Card></Card>       
+            <Card></Card>  
+            <Card></Card>       
+          </div>  
+          <div className="">
+            <Cardcenter></Cardcenter>
+          </div>
+          <div className="">
+            <LeftCardImg></LeftCardImg>                  
+            <Card></Card>  
+            <Card></Card>                 
+          </div>
+        </div>  */
   );
 }
 
