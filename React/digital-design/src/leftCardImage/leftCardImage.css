@@ -1,6 +1,7 @@
 #total {
     flex-wrap: wrap;
     max-width: 27%;
+    float: left;
 }
 
 #pictures{
