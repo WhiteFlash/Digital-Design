@@ -12,3 +12,16 @@
     color: black;
     padding: 0% 5%;
 }
+
+@media screen and (max-width: 1000px){
+    #total {
+        max-width: 49%;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    #total {
+        max-width: 100%;
+    }
+    
+}
