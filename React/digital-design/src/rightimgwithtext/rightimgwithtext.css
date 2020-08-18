@@ -1,0 +1,12 @@
+#right{
+    display: flex;
+    max-width: 100%;
+}
+
+#cardimage{
+    width: 400px;
+}
+
+#picture{
+    width: 100%;
+}
