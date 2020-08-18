@@ -14,6 +14,10 @@ body{
   display: flex; 
 }
 
+.d-wrap{
+  flex-wrap: wrap;
+}
+
 .child{
   margin: auto;
   padding: 1%;
