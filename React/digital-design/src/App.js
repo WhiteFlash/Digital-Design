@@ -18,14 +18,13 @@ function App() {
         <br></br>    
           <Navigation></Navigation>          
         <br></br>
-        <div className="">
-          <LeftCardImg></LeftCardImg>
+        <div className="d-wrap">
+          <LeftCardImg></LeftCardImg>        
+          <Rightimgwithtext></Rightimgwithtext>
         </div>
-      </div>
-          /* <div className=" ">
-            <Rightimgwithtext></Rightimgwithtext>
-          </div>
-        </div>
+            
+      </div>     
+    /* </div>
         <div className="" >
           <div className=" ">   
             <Card></Card>       
