@@ -1,0 +1,8 @@
+#main{
+    flex-wrap: wrap;   
+    justify-content: space-between;
+}
+
+#main p{
+    max-width: 49%;
+}
