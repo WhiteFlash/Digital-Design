@@ -16,7 +16,8 @@ body{
 }
 
 .d-wrap{
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
+  justify-content: space-around;
 }
 
 .child{
