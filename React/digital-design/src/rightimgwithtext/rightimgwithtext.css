@@ -3,10 +3,59 @@
     max-width: 100%;
 }
 
+#textcenter{
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+}
+
 #cardimage{
     width: 400px;
 }
 
 #picture{
     width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 1000px){    
+    #right{
+        flex-flow: column wrap;
+        margin-right: 1%;
+    }
+
+    #cardimage{
+        order:1;
+        margin-left: 2%;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    #textcenter{
+        order: 2;
+        min-height: 265px;
+    }
+
+}
+
+@media screen and (max-width: 800px){    
+    #right{
+        /* flex-flow: wrap; */
+        margin-right: 1%;
+    }
+
+    #cardimage{
+        order:1;
+        margin-left: 2%;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    #textcenter{
+        order: 2;
+    }
+
 }
