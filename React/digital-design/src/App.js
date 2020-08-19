@@ -19,7 +19,7 @@ function App() {
           <Navigation></Navigation>          
         <br></br>
         <div className="d-wrap">
-          <LeftCardImg></LeftCardImg>        
+          <LeftCardImg></LeftCardImg>  
           <Rightimgwithtext></Rightimgwithtext>
         </div>
             
