@@ -14,6 +14,10 @@
     padding: 0% 5%;
 }
 
+.card-color h4, p {
+    padding-left: 5%;
+}
+
 @media screen and (max-width: 1000px){
     #total {
         max-width: 49%;
