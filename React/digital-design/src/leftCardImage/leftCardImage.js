@@ -5,6 +5,18 @@ import AuthorAndComments from '../authorAndComments/authorAndComments';
 import './leftCardImage.css';
 import customImage from '../img/one.jpg'
 
+// Need to get rid of float: left property from id="total"
+// because element that should be straig floats right on the small screen
+// function MyFunction(){
+//   if(x.matches){
+//     x.style.clear = "both";
+//   }
+// }
+
+// var x = document.getElementById("total").innerHTML;
+// x.matchMedia("(max-width: 800px)");
+// MyFunction(x);
+// x.addEventListener(MyFunction);
 
 function LeftCardImg() {
     return (          
